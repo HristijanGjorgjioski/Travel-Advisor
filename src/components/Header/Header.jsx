@@ -28,7 +28,7 @@ const Header = ({ setCoordinates }) => {
                     <Typography variant="h6" className={classes.title}>
                         Explore New Places
                     </Typography>
-                    <Autocomplete onLoad={} onPlaceChanged={}>
+                    <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
                         <div className={classes.search}>
                             <div className={classes.searchIcon}>
                                 <SearchIcon />
